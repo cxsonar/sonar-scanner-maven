@@ -26,8 +26,6 @@ addons:
     organization: "cxsonar_sonar-scanner-maven" # the key of the org you chose at step #3
     token:
       secure: 6671057b1d77eac3ca564d6ef60dcad280a223f7 # encrypted value of your token
-	#script:
-	#- sonar-scanner
   apt:
     packages:
       # upgrade java 8 as the default version 1.8.0_31 prevents from compiling sources
